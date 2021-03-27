@@ -42,10 +42,10 @@ function findAndReplace() {
     let oneReplace = new RegExp(find); //It will only replace once.
 
     if ($("#replaceAll").is(':checked')) { //Checking if the option for Replace is checked
-        var replacedText = text.replace(allReplace, replace);
+        let replacedText = text.replace(allReplace, replace);
         //Variables declared by let dosen't works inside because it is limited to block code.
     } else {
-        var replacedText = text.replace(oneReplace, replace);
+        let replacedText = text.replace(oneReplace, replace);
     }
 
     $("#inputLabel").html("Output:");
@@ -59,7 +59,7 @@ function compareLists() {
 
     //For loop to compare original List with list from which duplicates need to be removed from.
     for (let i = 0; i < originalList.length; i++) {
-        var index = listToBeDupesDeletedFrom.indexOf(originalList[i]); //It uses index of to check if first line from array exists in the second file.
+        let index = listToBeDupesDeletedFrom.indexOf(originalList[i]); //It uses index of to check if first line from array exists in the second file.
         if (index > -1) { //If it exists then the answer will be more than -1 and if it dosen't then answer will be -1
             listToBeDupesDeletedFrom.splice(index, 1); //If it exists then we can use the answer of the index with splice object. We tell first where to start from and then how many values to remove.
         }
@@ -124,9 +124,9 @@ function letterCaseConverter() {
     let option = $("#options").val() //To find out what user has selected. Prefix or Suffix
     
     if (option === "uppercase") {
-        var convertedLetterCase = text.toUpperCase();
+        let convertedLetterCase = text.toUpperCase();
     } else if (option === "lowercase") {
-        var convertedLetterCase = text.toLowerCase();
+        let convertedLetterCase = text.toLowerCase();
     }
 
     $("#inputLabel").html("Output:"); //Label changed from Input to Output
