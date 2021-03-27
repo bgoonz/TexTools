@@ -97,7 +97,7 @@
 
   <!-- WEBSITE LINK -->
   ##Try the Demo!
-  <a href="https://devtools42.netlify.app/">[Live Website]</a>
+![Live Website](https://devtools42.netlify.app/)
   <!-- OPTIONAL Use an image button for extra fancy points. -->
   <!-- <a href=""><img src="" alt="Button image to go to app site" title="Click to see the live site!"></a> -->
 
