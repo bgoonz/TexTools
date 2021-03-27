@@ -7,7 +7,7 @@
 
 # Deployment:
 
-![deployment}(https://devtools42.netlify.app/)
+[deployment](https://devtools42.netlify.app/)
 
 
 # <span style="color:#08067C; font-weight:1000;font-family: Impact,font-size:36; Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> <ins>TexTools </span>.
